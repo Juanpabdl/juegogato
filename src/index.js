@@ -1,7 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Menu from './components/Menu/Menu';
 import './index.css';
-  
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
+
   function Square(props){
       return(
         <button className='square' onClick={props.onClick}>
@@ -121,7 +125,14 @@ import './index.css';
   // ========================================
   
   ReactDOM.render(
-    <Game />,
+    <Router>
+      <div>
+        <Menu />,
+        <div className='container' id="cont-game">
+          <Game />,
+        </div>
+      </div>
+    </Router>,
     document.getElementById('root')
   );
   

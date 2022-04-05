@@ -50,12 +50,28 @@ body {
   .game-info {
     margin-left: 20px;
   }
+
+  #full{
+    background-color: #343546;
+    margin: auto;
+  }
+
+  #content{
+    margin:auto;
+    width: 70%;
+    background-color: #eee;
+  }
   
   #cont-game{
     margin: auto;
     margin-top: 60px;
-    width: 70%;
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: space-around;
+  }
+
+  #cont-banner{
+    margin:auto;
+    margin-top: 60px;
+    width: 90%;
   }

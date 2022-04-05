@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Menu from './components/Menu/Menu';
 import Jugador from './components/Jugador/Jugador';
+import Banner from './components/Banner/Banner';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -93,7 +94,7 @@ import { HashRouter as Router, Route, Switch } from 'react-router-dom';
           "Go to game start";
           return(
             <li key={move}>
-              <button onClick={() => this.jumpTo(move)}>
+              <button className="btn btn-primary" onClick={() => this.jumpTo(move)}>
                 {desc}
               </button>
             </li>
@@ -127,12 +128,17 @@ import { HashRouter as Router, Route, Switch } from 'react-router-dom';
   
   ReactDOM.render(
     <Router>
-      <div>
-        <Menu />,
-        <div className='container' id="cont-game">
-          <Jugador/>
-          <Game />
-          <Jugador />
+      <div id='full'>
+        <Menu />
+        <div id='content'>
+          <div id='cont-banner'>
+            <Banner />
+          </div>
+          <div id="cont-game">
+            <Jugador/>
+            <Game />
+            <Jugador />
+          </div>
         </div>
       </div>
     </Router>,

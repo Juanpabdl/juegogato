@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Menu from './components/Menu/Menu';
+import Jugador from './components/Jugador/Jugador';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -129,7 +130,9 @@ import { HashRouter as Router, Route, Switch } from 'react-router-dom';
       <div>
         <Menu />,
         <div className='container' id="cont-game">
-          <Game />,
+          <Jugador/>
+          <Game />
+          <Jugador />
         </div>
       </div>
     </Router>,

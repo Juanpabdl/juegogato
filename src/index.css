@@ -42,7 +42,9 @@ body {
   
   .game {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
   }
   
   .game-info {
@@ -50,5 +52,10 @@ body {
   }
   
   #cont-game{
+    margin: auto;
     margin-top: 60px;
+    width: 70%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
   }

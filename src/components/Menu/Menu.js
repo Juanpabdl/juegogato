@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-bootstrap';
+import  NavLink  from 'react-bootstrap/NavLink';
 
 class Menu extends React.Component{
     render(){
@@ -15,13 +15,7 @@ class Menu extends React.Component{
                             <NavLink to="/" clasName="nav-link">Home</NavLink>
                         </li>
                         <li className='nav-item'>
-                            <NavLink to="/" clasName="nav-link">Nosotros</NavLink>
-                        </li>
-                        <li className='nav-item'>
-                            <NavLink to="/" clasName="nav-link">Servicios</NavLink>
-                        </li>
-                        <li className='nav-item'>
-                            <NavLink to="/" clasName="nav-link">Contacto</NavLink>
+                            <NavLink to="/" clasName="nav-link">Reglas</NavLink>
                         </li>
                     </ul>
                 </div>

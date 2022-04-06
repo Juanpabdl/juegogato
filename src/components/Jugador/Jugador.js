@@ -11,7 +11,7 @@ class Jugador extends React.Component{
     render(){
         return(
             <div className="player">
-                <Card style={{width: '12rem'}}>
+                <Card style={{width: '15rem'}}>
                     <Card.Img variant="top" src={this.state.imgJugador} alt="Img_Jugador"/>
                     <Card.Body>
                         <Card.Title>Jugador</Card.Title>

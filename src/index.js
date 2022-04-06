@@ -4,6 +4,8 @@ import Menu from './components/Menu/Menu';
 import Jugador from './components/Jugador/Jugador';
 import Banner from './components/Banner/Banner';
 import Reglas from './components/Reglas/Reglas';
+import Footer from './components/Footer/Footer';
+import Contacto from './components/Contacto/Contacto';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -135,16 +137,18 @@ import { HashRouter as Router, Route, Switch } from 'react-router-dom';
           <div id='cont-banner'>
             <Banner />
           </div>
-          <div className='separador'></div>
           <div id="cont-game">
             <Jugador/>
             <Game />
             <Jugador />
           </div>
-          <div className='separador'></div>
-          <Reglas />
+          <div id='cont-rules'>
+            <Reglas />
+          </div>
+          <Contacto />
         </div>
       </div>
+      <Footer />
     </Router>,
     document.getElementById('root')
   );

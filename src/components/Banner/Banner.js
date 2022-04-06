@@ -5,11 +5,11 @@ class Banner extends React.Component{
     render(){
         return(
             <div>
-                <Carousel variant="dark">
+                <Carousel>
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="https://www.coolmathgames.com/sites/default/files/tic-tac-toe.png"
+                        src="https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmPB2bMY9tfHLpDeAoYTdN8gH7rpmzbFfgX3nvZayUG95e/Konstant%20Third%20party%20Banners.png"
                         alt="Slide1"
                     ></img>
                     <Carousel.Caption>
@@ -20,7 +20,7 @@ class Banner extends React.Component{
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="https://imagenes.elpais.com/resizer/X05m34NL7T1id4zS8WJjvvUUStA=/414x0/cloudfront-eu-central-1.images.arcpublishing.com/prisa/TLL6LLHXS4SHHAL7ZTU5RMZN7U.jpg"
+                        src="https://www.biz4solutions.com/blog/wp-content/uploads/2020/09/banner_3_Sep_20.jpg"
                         alt="Slide1"
                     ></img>
                     <Carousel.Caption>
@@ -31,7 +31,7 @@ class Banner extends React.Component{
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM_c7d5KAWjonSI581EGMqGr32J9vmw-AKHA&usqp=CAU"
+                        src="https://cdn-media-1.freecodecamp.org/images/1*I9VVnu-qsD51IkCrK5Wa5A.png"
                         alt="Slide1"
                     ></img>
                     <Carousel.Caption>

@@ -60,7 +60,7 @@ body {
   #content{
     margin:auto;
     margin-bottom: 10px;
-    width: 70%;
+    width: 80%;
     background-color: #eee;
     padding: 10px 20px 20px 10px;
   }
@@ -77,7 +77,7 @@ body {
   #cont-banner{
     margin:auto;
     margin-top: 60px;
-    width: 80%;
+    width: 90%;
   }
 
   #juegoReglas{
@@ -85,10 +85,12 @@ body {
     width: 80%;
   }
 
-  .separador{
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 70%;
-    background-color: #343546;
+  #cont-contact{
+    margin:auto;
+    margin-top:10px;
+    width: 80%;
+  }
+
+  footer{
+    padding-top: 10px;
   }

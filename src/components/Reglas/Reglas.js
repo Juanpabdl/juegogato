@@ -8,7 +8,7 @@ class Reglas extends React.Component{
     render(){
         return(
             <div id="juegoReglas">
-                <h3>Reglas de Tic Tac Toe</h3>
+                <h2 className="mb-5">Reglas de Tic Tac Toe</h2>
                 <Accordion>
                     <AccordionItem eventKey="0">
                         <AccordionHeader>Regla #1</AccordionHeader>
@@ -29,7 +29,7 @@ class Reglas extends React.Component{
                         <AccordionHeader>Regla #3</AccordionHeader>
                         <AccordionBody>
                             Si todas las casillas se llenan sin que se haya formado una fila de 3 simbolos, 
-                            se declara un empate.
+                            se declara un empate y los dos jugadores se sienten confundidos de como pudo pasar
                         </AccordionBody>
                     </AccordionItem>
                     <AccordionItem eventKey="3">

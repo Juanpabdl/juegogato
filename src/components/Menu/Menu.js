@@ -12,13 +12,16 @@ class Menu extends React.Component{
                 <div className='collapse navbar-collapse' id='navbarCollapse'>
                     <ul className='navbar-nav mr-auto'>
                         <li className='nav-item'>
-                            <NavLink to="/" clasName="nav-link">Home</NavLink>
+                            <NavLink to="/" clasName="nav-link" href='#content'>Home</NavLink>
                         </li>
                         <li className='nav-item'>
-                            <NavLink to="/" clasName="nav-link">Juego</NavLink>
+                            <NavLink to="/" clasName="nav-link" href='#cont-game'>Juego</NavLink>
                         </li>
                         <li className='nav-item'>
-                            <NavLink to="/" clasName="nav-link">Reglas</NavLink>
+                            <NavLink to="/" clasName="nav-link" href='#cont-rules'>Reglas</NavLink>
+                        </li>
+                        <li className='nav-item'>
+                            <NavLink to="/" clasName="nav-link" href='#cont-contact'>Contacto</NavLink>
                         </li>
                     </ul>
                 </div>

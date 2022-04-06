@@ -14,11 +14,15 @@ class Menu extends React.Component{
                         <li className='nav-item'>
                             <NavLink to="/" clasName="nav-link">Home</NavLink>
                         </li>
-                        <li className='nav-item'>
-                            <NavLink to="/" clasName="nav-link">Juego</NavLink>
+                        <li className="nav-item">
+                            <NavLink to="/nosotros" className="nav-link">Nosotros </NavLink>
                         </li>
-                        <li className='nav-item'>
-                            <NavLink to="/" clasName="nav-link">Reglas</NavLink>
+                        <li className="nav-item">
+                            <NavLink to="/servicios" className="nav-link">Servicios </NavLink>
+                        </li>
+
+                        <li className="nav-item">
+                            <NavLink to="/contacto" className="nav-link">Contacto </NavLink>
                         </li>
                     </ul>
                 </div>

@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import Menu from './components/Menu/Menu';
 import Jugador from './components/Jugador/Jugador';
 import Banner from './components/Banner/Banner';
+import Reglas from './components/Reglas/Reglas';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -94,7 +95,7 @@ import { HashRouter as Router, Route, Switch } from 'react-router-dom';
           "Go to game start";
           return(
             <li key={move}>
-              <button className="btn btn-primary" onClick={() => this.jumpTo(move)}>
+              <button className="btn btn-primary" style={{marginTop:"2px"}} onClick={() => this.jumpTo(move)}>
                 {desc}
               </button>
             </li>
@@ -108,7 +109,7 @@ import { HashRouter as Router, Route, Switch } from 'react-router-dom';
         status = "Next player: " + (this.state.xIsNext ? 'X' : 'O')
       }
       return (
-        <div className="game">
+        <div className="game" style={{marginTop:"10px"}}>
           <div className="game-board">
             <Board 
               squares = {current.squares}
@@ -134,11 +135,14 @@ import { HashRouter as Router, Route, Switch } from 'react-router-dom';
           <div id='cont-banner'>
             <Banner />
           </div>
+          <div className='separador'></div>
           <div id="cont-game">
             <Jugador/>
             <Game />
             <Jugador />
           </div>
+          <div className='separador'></div>
+          <Reglas />
         </div>
       </div>
     </Router>,

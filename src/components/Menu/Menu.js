@@ -15,6 +15,9 @@ class Menu extends React.Component{
                             <NavLink to="/" clasName="nav-link">Home</NavLink>
                         </li>
                         <li className='nav-item'>
+                            <NavLink to="/" clasName="nav-link">Juego</NavLink>
+                        </li>
+                        <li className='nav-item'>
                             <NavLink to="/" clasName="nav-link">Reglas</NavLink>
                         </li>
                     </ul>

@@ -4,7 +4,8 @@ import Carousel from "react-bootstrap/Carousel";
 class Banner extends React.Component{
     render(){
         return(
-            <Carousel variant="dark">
+            <div>
+                <Carousel variant="dark">
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
@@ -39,6 +40,7 @@ class Banner extends React.Component{
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
+            </div>
         );
     }
 }
